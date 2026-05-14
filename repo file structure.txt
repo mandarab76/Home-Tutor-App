@@ -1,0 +1,11 @@
+cbse-tutor-hub/
+│
+├── app.py                  # (The Main Router Code above)
+├── requirements.txt        # (streamlit, pandas, matplotlib, numpy)
+├── README.md               # (The documentation)
+│
+└── modules/                # (Folder for specific logic)
+    ├── __init__.py         # (Empty file, makes python treat this as a package)
+    ├── mrunal_legacy.py    # (Contains the Class 4 Pizza/English code)
+    ├── gargi_legacy.py     # (Contains the Class 8 Farming/ThinkTank code)
+    └── cbse_standard.py    # (The new generic dashboard code)
